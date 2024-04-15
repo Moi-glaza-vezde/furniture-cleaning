@@ -173,7 +173,7 @@ export function renderData(data) {
          return `
 				<div class="price-block">
 				<div class="price-block__item">
-				<div class="price-block__close" id="closePrice"> <a href="/"> &#215;</a></div>
+				<div class="price-block__close" id="closePrice"> <a href="/furniture-cleaning/"> &#215;</a></div>
 				<div class="price-block__img">
 					<img src="./img/priceBlock/price-straight-sofa.jpg" alt="" />
 				</div>
@@ -229,7 +229,7 @@ export function renderData(data) {
          return `
 				<div id="" class="price-block">
 				<div class="price-block__item">
-					<div class="price-block__close" id="closePrice"> <a href="/">&#215;</a></div>
+					<div class="price-block__close" id="closePrice"> <a href="/furniture-cleaning/">&#215;</a></div>
 					<div class="price-block__img">
 						<img src="./img/priceBlock/price-angular-sofa.jpg" alt="" />
 					</div>
@@ -266,7 +266,7 @@ export function renderData(data) {
          return `
 				<div id="" class="price-block">
 				<div class="price-block__item">
-					<div class="price-block__close" id="closePrice"> <a href="/">&#215;</a></div>
+					<div class="price-block__close" id="closePrice"> <a href="/furniture-cleaning/">&#215;</a></div>
 					<div class="price-block__img">
 					<img src="./img/priceBlock/price-armchair.jpg" alt="" />
 				</div>
@@ -303,7 +303,7 @@ export function renderData(data) {
          return `
 				<div id="" class="price-block">
 				<div class="price-block__item">
-					<div class="price-block__close" id="closePrice"> <a href="/">&#215;</a></div>
+					<div class="price-block__close" id="closePrice"> <a href="/furniture-cleaning/">&#215;</a></div>
 					<div class="price-block__img">
 					<img src="./img/priceBlock/price-chair.jpg" alt="" />
 				</div>
@@ -341,7 +341,7 @@ export function renderData(data) {
          return `
 				<div id="" class="price-block">
 				<div class="price-block__item">
-					<div class="price-block__close" id="closePrice"> <a href="/">&#215;</a></div>
+					<div class="price-block__close" id="closePrice"> <a href="/furniture-cleaning/">&#215;</a></div>
 					<div class="price-block__img">
 					<img src="./img/priceBlock/price-mattress.jpg" alt="" />
 				</div>
@@ -376,7 +376,7 @@ export function renderData(data) {
          return `
 				<div id="" class="price-block">
 				<div class="price-block__item">
-					<div class="price-block__close" id="closePrice"> <a href="/">&#215;</a></div>
+					<div class="price-block__close" id="closePrice"> <a href="/furniture-cleaning/">&#215;</a></div>
 					<div class="price-block__img">
 					<img src="./img/priceBlock/price-carpet.jpg" alt="" />
 				</div>
