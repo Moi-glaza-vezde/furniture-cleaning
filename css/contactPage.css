@@ -1,0 +1,15 @@
+.contacts-info {
+  padding-top: 50px; }
+  .contacts-info__list {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 600; }
+  .contacts-info__item {
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight: 400; }
+  .contacts-info__img {
+    width: 40px;
+    -webkit-filter: brightness(0.9);
+    filter: brightness(0.9); }

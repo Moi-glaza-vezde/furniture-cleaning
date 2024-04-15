@@ -1,0 +1,23 @@
+.gelery {
+   max-width: 1300px;
+   padding: 50px 0;
+   //background-color: #fff;
+   &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+   &__item {
+      box-shadow: 0 3px 10px rgba(0, 82, 224, 0.2);
+      //  box-shadow: 0 0 10px 5px rgba(0, 82, 224, 0.536);
+
+      max-width: 400px;
+      margin: 10px;
+      img {
+         filter: brightness(0.9);
+
+         width: 100%;
+      }
+   }
+}

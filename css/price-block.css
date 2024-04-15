@@ -1,0 +1,49 @@
+.price-block {
+  padding: 50px 0; }
+  .price-block__close {
+    text-align: end;
+    font-size: 22px;
+    line-height: 0px; }
+  .price-block__item {
+    margin: 0 auto;
+    padding: 20px;
+    -webkit-box-shadow: 0 3px 10px rgba(0, 82, 224, 0.2);
+    box-shadow: 0 3px 10px rgba(0, 82, 224, 0.2);
+    max-width: 700px; }
+  .price-block__img {
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 5px; }
+    .price-block__img img {
+      max-width: 100%;
+      -webkit-filter: brightness(0.8);
+      filter: brightness(0.8);
+      border-radius: 5px; }
+  .price-block__size-box {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .price-block__size {
+    padding-top: 10px;
+    max-width: 400px; }
+    .price-block__size li {
+      line-height: 25px;
+      font-weight: 600;
+      font-size: 18px;
+      padding: 2px 0; }
+      @media (max-width: 430px) {
+        .price-block__size li {
+          font-size: 16px;
+          line-height: 20px; } }
+      @media (max-width: 398px) {
+        .price-block__size li {
+          font-size: 11px;
+          line-height: 18px; } }
+  .price-block .mattress {
+    max-width: 600px; }

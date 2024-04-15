@@ -1,0 +1,79 @@
+.header {
+   z-index: 5;
+   width: 100%;
+   &__wrapper {
+      @media (max-width: 821px) {
+         position: relative;
+      }
+      display: flex;
+      justify-content: space-around;
+
+      color: #fff;
+      background-color: #000;
+
+      padding: 20px 0;
+   }
+   //Титул
+   &__name-company {
+      h2 {
+         @media (max-width: 331px) {
+            font-size: 18px;
+         }
+         font-size: 20px;
+         font-weight: 600;
+      }
+   }
+
+   &__nav {
+      @media (max-width: 821px) {
+         position: absolute;
+         top: -320%;
+         right: 0;
+         width: 100%;
+         transition-duration: 0.3s;
+      }
+   }
+   &__nav--active {
+      transition-duration: 0.3s;
+      top: 100%;
+      z-index: 2;
+   }
+   &__nav-list {
+      @media (max-width: 821px) {
+         display: block;
+         background-color: #000;
+         text-align: center;
+         padding: 20px 0;
+         height: 100%;
+      }
+      display: flex;
+   }
+   &__nav-item {
+      @media (max-width: 821px) {
+         margin: 10px 0px;
+         margin: 10px auto;
+
+         font-size: 18px;
+         width: 150px;
+      }
+      margin: 0 10px;
+      font-size: 16px;
+
+      padding: 5px;
+      border-radius: 5px;
+      //transition-duration: 0.3s;
+   }
+   // &__nav-item:hover {
+   //    transition-duration: 0.3s;
+   //    background-color: rgba(255, 255, 255, 0.253);
+   // }
+
+   &__nav-item--active {
+      background-color: white;
+      color: #000;
+   }
+   // &__nav-item--active:last-child {
+   //    background-color: #000;
+   //    color: white;
+   // }
+}
